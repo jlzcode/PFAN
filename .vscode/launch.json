@@ -1,0 +1,28 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: train.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--dataroot", "/opt/data/private/pytorch-CycleGAN-and-pix2pix-master_Mdf/datasets/c80_full_pix2pix",
+            "--name", "c80_convnextSea_64_2_1_multiSc_debug",
+            "--model","cycle_gan",
+            "--netG" ,"unet_256",
+            "--direction","AtoB",
+            "--dataset_mode","aligned",
+            "--norm","batch",
+            "--ndf","64",
+            "--ngf","64",
+            "--embed_dim","64",
+            "--checkpoints_dir","/opt/data/private/pytorch-CycleGAN-and-pix2pix-master_Mdf3/checkpoints"
+],
+            "justMyCode": true
+        }
+    ]
+    
+
+}
