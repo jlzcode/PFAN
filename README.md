@@ -8,7 +8,7 @@
 ## Representative Results
 ![representive_results](2.png)
 
-## Overal Architecture
+## Overall Architecture
 ![architecture](/1.png)
 
 ## Prerequisites
