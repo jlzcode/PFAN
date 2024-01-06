@@ -59,13 +59,13 @@ python test.py --dataroot ./datasets/composite --name pfan
 ## Citation
 If you find this work useful for you, please cite
 ```
-@misc{zhang2023progressive,
-      title={Progressive Frequency-Aware Network for Laparoscopic Image Desmoking}, 
-      author={Jiale Zhang and Wenfeng Huang and Xiangyun Liao and Qiong Wang},
-      year={2023},
-      eprint={2312.12023},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@inproceedings{zhang2023progressive,
+  title={Progressive Frequency-Aware Network for Laparoscopic Image Desmoking},
+  author={Zhang, Jiale and Huang, Wenfeng and Liao, Xiangyun and Wang, Qiong},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={479--492},
+  year={2023},
+  organization={Springer}
 }
 ```
 
